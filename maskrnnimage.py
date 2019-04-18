@@ -135,3 +135,10 @@ image = cv2.imread("images/tz20frame424.jpg")
 outputimage = process_image(image)
 cv2.imwrite("imagesout/t20frame424_output.jpg",outputimage)
 
+image = cv2.imread("images/tz20frame424.jpg")
+outputimage = process_image(image)
+cv2.imwrite("imagesout/t20frame424_output.jpg",outputimage)
+
+image = cv2.imread("images/120.jpg")
+outputimage = process_image(image)
+cv2.imwrite("imagesout/120_output.jpg",outputimage)
